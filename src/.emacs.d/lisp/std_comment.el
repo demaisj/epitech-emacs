@@ -12,8 +12,7 @@
 
 (setq std-c-alist               '( (cs . "/*") (cc . "** ") (ce . "*/") )
       std-css-alist             '( (cs . "/*") (cc . "** ") (ce . "*/") )
-      std-c++-alist             '( (cs . "/*") (cc . "** ") (ce . "*/") )
-      std-cpp-alist             '( (cs . "//") (cc . "// ") (ce . "//") )
+      std-cpp-alist             '( (cs . "/*") (cc . "** ") (ce . "*/") )
       std-pov-alist             '( (cs . "//") (cc . "// ") (ce . "//") )
       std-java-alist            '( (cs . "//") (cc . "// ") (ce . "//") )
       std-latex-alist           '( (cs . "%%") (cc . "%% ") (ce . "%%") )
@@ -35,7 +34,6 @@
 (setq std-modes-alist '(("C"                    . std-c-alist)
 			("C/l"                  . std-c-alist)
                         ("CSS"                  . std-c-alist)
-			("C++"                  . std-c++-alist)
                         ("PoV"                  . std-pov-alist)
                         ("C++"                  . std-cpp-alist)
                         ("C++/l"                . std-cpp-alist)
